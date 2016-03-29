@@ -12,7 +12,20 @@
 #-8
 #Sample Output:
 #340
-
+#First version:
+b = 1
+c = 0
+d = 0
+while True:
+    b = int(input())
+    c += b
+    d += b ** 2
+    if c != 0:
+        continue
+    else:
+        break
+print (d)    
+#Second version:
 a = []
 b = 1
 c = 0
